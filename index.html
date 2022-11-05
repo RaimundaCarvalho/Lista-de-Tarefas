@@ -5,15 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
-</head>
+    <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js" data-auto-replace-svg="nest"></script>
+    <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+
 <body>
-    <h1>Lista de tarefas da Trindade</h1>
-    <input type="text" id="nome-tarefa"/>
+    <div id="tarefa">
+    <h1 class="titulo-tarefa">Lista de Tarefas</h1>
+    <input type="text" id="nome-tarefa" placeholder="O que você vai fazer?">
     <button onclick="adicionarTarefa()">
         Criar Tarefa
     </button>
+    </div>
      <div id="lista-tarefas"></div>
-
-    <script src="./index.js"></script>
+     <script src="./index.js"></script>
 </body>
 </html>

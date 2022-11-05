@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background-color: darksalmon;
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    width: 40%;
+    margin-top: 50px;
+    padding: 25px;
+    border:2px solid;
+    border-radius:10px;
+}
+
+.titulo-tarefa{
+    font-size: 36px;
+    color: darkblue;
+    font-weight: 560;
+    height: 45px;
+    
+} 
+
+button{
+    background-color: darkgray;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    
+    
+}
+
+#lista-tarefas{
+    padding: 12px;
+    height: auto;
+
+    
+}
+
+
+
+
+
